@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Calibri');
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script|Mr+De+Haviland');
+body {
+    font-family: "Calibri", sans-serif;
+    margin: 0px;
+}
+
+.nav-bar {
+    background-color: #074b98;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.header-left-buttons {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right-buttons {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-family: 'Calibri', sans-serif;
+    padding-top: 3px;
+}
+
+.header-buttons-ref {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 50px;
+    margin: 5px;
+    display: inline;
+}
+
+.header-buttons-ref:hover {
+    color: rgb(167, 164, 164);
+}
+
+.modal-title {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.btn-danger {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.form-title {
+    color: #074b98;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.modal-header {
+    background-color: #074b98;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #074b98;
+    margin-top: 15px;
+}
+
+.btn-outline-primary {
+    color: blue;
+}
+
+.btn-outline-primary:hover {
+    background-color: blue;
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link-password {
+    color: #074b98;
+    margin-left: 45px;
+}
+
+.link-registration {
+    color: #074b98;
+}
+
+.SM-button {
+    margin: 15px;
+    width: 400px;
+    text-align: center;
+}
+
+.carousel {
+    background-color: #212837;
+    position: relative;
+}
+
+.image-fond {
+    opacity: 0.10;
+    position: absolute;
+}
+
+.d-block {
+    float: right;
+    width: 753px !important;
+    height: 285px;
+}
+
+.Newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.close {
+    color: white;
+}
+
+.close-icon,
+.close :hover {
+    color: white !important;
+}
+
+.dot {
+    color: rgb(252, 252, 252);
+    font-size: 12px;
+}
+
+.separation {
+    border-bottom: 2px solid #074b98;
+    width: 180px;
+    margin: 1px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.fa-paper-plane {
+    align-self: center;
+    padding-left: 15px;
+    color: #074b98;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+footer {
+    height: 50px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(43, 42, 42);
+    justify-content: space-between;
+    color: white;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.powered {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.powered_p {
+    margin: 0px;
+}
+
+.connect-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 120px;
+}
+
+.connect-ic {
+    color: white;
+}
+
+.form-registration {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    z-index: 1;
+    opacity: 0.9;
+    margin: 25px;
+}
+
+.form-check-label {
+    padding-top: 15px;
+}
+
+.form-homepage {
+    display: flex;
+    width: 400px;
+}
+
+.login-main {
+    background-color: #212837;
+    position: relative;
+}
+
+.image-login {
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.link-terms {
+    color: #074b98;
+}
